@@ -7,7 +7,7 @@ echo "---------------------------"
 
 aarch64-linux-gnu-as $ARM_FILE -o $WORK_DIR/temp.o
 aarch64-linux-gnu-ld $WORK_DIR/temp.o -lc -o $WORK_DIR/temp
-$WORK_DIR/temp
+qemu-aarch64 -L /usr/aarch64-linux-gnu/ $WORK_DIR/temp
 
 rm -rf "$WORK_DIR"
 exit 0
