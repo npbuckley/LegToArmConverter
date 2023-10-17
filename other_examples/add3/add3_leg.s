@@ -10,7 +10,7 @@ add3_func:
   ADD X0, X0, X1
   LDA X8, out
   STUR X0, [X8, #0]
-add2_end:
+add3_end:
   MOV X0, #0
   MOV W8, #93
   SVC #0
