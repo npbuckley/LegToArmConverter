@@ -20,3 +20,10 @@ Then you can run the resulting ARM file using the run_arm.sh file which is used 
     ./run_arm.sh <ARM input>
 
 This will run your ARM and clean itself up afterward
+
+## Common Issues
+### Permission Denied
+
+If for any script you get a permission denied message, simply run 
+
+    chmod 755 <script> 
