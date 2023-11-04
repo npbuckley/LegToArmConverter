@@ -20,7 +20,7 @@ This way of running takes two steps and lets you see the resulting ARM file. The
 
 Then you can run the resulting ARM file using the run_arm.sh file which is used like:
 
-    Usage: run_leg.sh [-hd] [LEG file]
+    Usage: run_arm.sh [-hd] [LEG file]
     -h: Display help
     -d: Enter debug mode
     [ARM file]: .s file
