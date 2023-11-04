@@ -4,10 +4,10 @@ MODE=0
 
 usage () {
     cat << EOF
-Usage: $(basename $0) [-hd] [ARM file]
+Usage: $(basename $0) [-hd] [LEG file]
     -h: Display help
     -d: Enter debug mode
-    [ARM file]: .s file
+    [LEG file]: .s file
 EOF
 }
 
