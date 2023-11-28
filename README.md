@@ -33,4 +33,4 @@ This will run your ARM and clean itself up afterward. Debug mode runs the code i
 
 If for any script you get a permission denied message, simply run 
 
-    chmod 755 <script> 
+    chmod +x <script> 
